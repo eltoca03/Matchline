@@ -4,4 +4,19 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>libs\AcCoreMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="Acdbmgd">
+      <HintPath>libs\AcDbMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="acmgd">
+      <HintPath>libs\AcMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcTcMgd">
+      <HintPath>libs\AcTcMgd.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

@@ -58,7 +58,7 @@ namespace Matchline
                 //prompt to select side 
                 PromptPointOptions ptOpt = new PromptPointOptions("Select Side ");
 
-
+                sideSelected(pts, matchLine.EndPoint, matchLine.StartPoint );
 
                 mText.Justify = AttachmentPoint.BottomCenter;
 
@@ -70,27 +70,33 @@ namespace Matchline
         {
 
 
-            DBObjectCollection objcoll = a;
-            Line tempLine = new Line();
+            //DBObjectCollection objcoll = a;
+            //Line tempLine = new Line();
 
-            foreach (Entity ent in objcoll)
-            {
-                tempLine = ((Line)ent);
-            }
+            //foreach (Entity ent in objcoll)
+            //{
+            //    tempLine = ((Line)ent);
+            //}
 
             Point3d point3d = new Point3d();
             Vector3d vector = new Vector3d();
-            vector = tempLine.StartPoint.GetVectorTo(tempLine.EndPoint);
-            point3d = tempLine.StartPoint + (vector / 2);
+            vector = a.StartPoint.GetVectorTo(a.EndPoint);
+            point3d = a.StartPoint + (vector / 2);
 
             return point3d;
         }
 
         //create vector with point selected and midpoint of line 
         //crete vector with midpoint and endpoint of line
-        public bool sideSelected()
+        public bool sideSelected(Point3d midPoint, Point3d endPoint, Point3d startPoint)
         {
-            return true;
+          Vector3d vector1 = midPoint.GetVectorTo(endPoint);
+          Vector3d vector2 = midPoint.GetVectorTo(startPoint);
+
+          double ang = vector1.GetAngleTo(vector2);        
+          
+          
+          return true;
         }
     }
 }

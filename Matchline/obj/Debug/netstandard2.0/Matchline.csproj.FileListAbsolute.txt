@@ -1,0 +1,13 @@
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\obj\Debug\netstandard2.0\Matchline.csprojResolveAssemblyReference.cache
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\obj\Debug\netstandard2.0\Matchline.csproj.CoreCompileInputs.cache
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\obj\Debug\netstandard2.0\Matchline.AssemblyInfoInputs.cache
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\obj\Debug\netstandard2.0\Matchline.AssemblyInfo.cs
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\bin\Debug\netstandard2.0\Matchline.deps.json
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\bin\Debug\netstandard2.0\Matchline.dll
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\bin\Debug\netstandard2.0\Matchline.pdb
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\bin\Debug\netstandard2.0\AcCoreMgd.dll
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\bin\Debug\netstandard2.0\AcDbMgd.dll
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\bin\Debug\netstandard2.0\AcMgd.dll
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\bin\Debug\netstandard2.0\AcTcMgd.dll
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\obj\Debug\netstandard2.0\Matchline.dll
+C:\Users\dsalazar\Source\repos\Matchline\Matchline\obj\Debug\netstandard2.0\Matchline.pdb
